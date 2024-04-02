@@ -18,7 +18,7 @@ private:
         {250, 195, 252, 255},
         {255, 155, 215, 255} };
     void NextColor() {
-        if ((currColor == SIZE - 1) || (*scorePtr > 5 && currColor == 0)) {
+        if (currColor + order > SIZE - 1 || currColor + order < 0) {
             order *= -1;
         }
         currColor += order;
