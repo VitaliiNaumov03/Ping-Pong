@@ -1,5 +1,7 @@
 ## Gameplay
+
 https://github.com/user-attachments/assets/ed97af95-8153-43ed-a6f1-44346816080c
+
 Background color changes after each 5 points. There are total of 6 available colors.
 
 ## Compiling
